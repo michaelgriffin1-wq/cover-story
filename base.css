@@ -1,6 +1,3 @@
-/* base.css: the page itself. A small reset, the type, and the cover layout.
-   Everything here points at tokens.css; you'll rarely edit this before Sprint 1. */
-
 *, *::before, *::after { box-sizing: border-box; }
 
 body {
@@ -27,7 +24,7 @@ h1, p, blockquote, figure { margin: 0; }
 }
 
 .masthead { display: flex; justify-content: space-between; align-items: baseline; }
-.masthead-name {
+.masthead-name {FRIEZE}
   font-family: var(--font-display);
   font-weight: 900;
   font-size: var(--step-3);
@@ -42,7 +39,7 @@ h1, p, blockquote, figure { margin: 0; }
   background: var(--color-surface);
 }
 
-.headline {
+.headline {A NEW ARCHITECTURE OF VALUE}
   font-family: var(--font-display);
   font-weight: 900;
   font-size: var(--step-display);
@@ -50,7 +47,7 @@ h1, p, blockquote, figure { margin: 0; }
   letter-spacing: -0.03em;
   text-wrap: balance;
 }
-.six-words {
+.six-words {The AFRO’s vision for reparative currency}
   font-family: var(--font-display);
   font-style: italic;
   font-size: var(--step-2);
@@ -64,7 +61,7 @@ h1, p, blockquote, figure { margin: 0; }
 .quote p { font-size: var(--step-1); line-height: 1.35; }
 .quote footer { margin-top: var(--space-1); color: var(--color-muted); font-size: 0.875rem; }
 
-.byline {
+.byline {By Michael Rashad Griffin}
   display: flex; flex-wrap: wrap; gap: var(--space-2); justify-content: space-between;
   padding-top: var(--space-3);
   border-top: 1px solid var(--color-surface);
